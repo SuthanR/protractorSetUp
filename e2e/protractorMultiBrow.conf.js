@@ -7,20 +7,20 @@ exports.config = {
 
   multiCapabilities: [
     {
-//     browserName: 'chrome',
+    browserName: 'chrome',
     
-//     metadata: {
-//         browser: {
-//             name: 'chrome',
-//             version: '63'
-//         },
-//         device: 'Dell',
-//         platform: {
-//             name: 'windows',
-//             version: '10.12.6'
-//         }
-//     }
-// },
+    metadata: {
+        browser: {
+            name: 'chrome',
+            version: '63'
+        },
+        device: 'Dell',
+        platform: {
+            name: 'windows',
+            version: '10.12.6'
+        }
+    }
+},
 
 // {
 //   browserName: 'firefox',
@@ -40,34 +40,37 @@ exports.config = {
 // },
 
 // {
-    browserName: 'internet explorer',
+    // browserName: 'internet explorer',
    
     
-    metadata: {
-        browser: {
-          name: 'internet explorer',
-          version: '10'
-        },
-        device: 'Dell',
-        platform: {
-          name: 'windows',
-          version: '10'
-        }
-    }
-   },
+    // metadata: {
+    //     browser: {
+    //       name: 'internet explorer',
+    //       version: '10'
+    //     },
+    //     device: 'Dell',
+    //     platform: {
+    //       name: 'windows',
+    //       version: '10'
+    //     }
+    // }
+ //  },
 
   ],
 
-  specs: ['cucumber/features/addition.feature'],
+  specs: ['cucumber/features/calculator.feature'],
 
-  allScriptsTimeout: 10000,
-plugins: [{
-  package: 'protractor-multiple-cucumber-html-reporter-plugin',
-  options:{
-      automaticallyGenerateReport: true,
-      removeExistingJsonReportFile: true
-  }
-}],
+  plugins: [{
+    package: 'protractor-multiple-cucumber-html-reporter-plugin',
+    options:{
+        automaticallyGenerateReport: true,
+        removeExistingJsonReportFile: true
+    }
+  }],
+  
+  allScriptsTimeout: 100000,
+  getPageTimeout: 20000,
+  defaultTimeoutInterval: 30000,
 
   cucumberOpts: {
     require: 'cucumber/step_definitions/calculator_steps.js',
