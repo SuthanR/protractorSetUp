@@ -4,6 +4,15 @@
   "repository": "https://github.com/mlev/protractor-cucumber-example",
   "license": "Apache-2.0",
   "devDependencies": {
+    "angular": "1.5.3",
+    "angular-cookies": "1.5.3",
+    "angular-mocks": "1.5.3",
+    "angular-route": "1.5.3",
+    "angular-sanitize": "1.5.3",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
     "chai": "~3.5.0",
     "chai-as-promised": "~6.0.0",
     "cucumber": "~1.3.3",
@@ -27,6 +36,8 @@
     "elementor": "^2.1.0",
     "grunt": "^1.0.3",
     "jslint": "^0.11.0",
-    "multiple-cucumber-html-reporter": "^1.10.2"
+    "multiple-cucumber-html-reporter": "^1.10.2",
+    "node-latest-version": "^1.0.16",
+    "npm": "^6.3.0"
   }
 }

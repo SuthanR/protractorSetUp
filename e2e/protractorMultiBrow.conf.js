@@ -6,38 +6,38 @@ exports.config = {
   ignoreUncaughtExceptions: true,
 
   multiCapabilities: [
-    {
-    browserName: 'chrome',
+//     {
+//     browserName: 'chrome',
     
-    metadata: {
-        browser: {
-            name: 'chrome',
-            version: '63'
-        },
-        device: 'Dell',
-        platform: {
-            name: 'windows',
-            version: '10.12.6'
-        }
-    }
-},
+//     metadata: {
+//         browser: {
+//             name: 'chrome',
+//             version: '63'
+//         },
+//         device: 'Dell',
+//         platform: {
+//             name: 'windows',
+//             version: '10.12.6'
+//         }
+//     }
+// },
 
-// {
-//   browserName: 'firefox',
+{
+  browserName: 'firefox',
  
   
-//   metadata: {
-//       browser: {
-//         name: 'firefox',
-//         version: '10'
-//       },
-//       device: 'Dell',
-//       platform: {
-//         name: 'windows',
-//         version: '10'
-//       }
-//   }
-// },
+  metadata: {
+      browser: {
+        name: 'firefox',
+       
+      },
+      device: 'Dell',
+      platform: {
+        name: 'windows',
+     
+      }
+  }
+},
 
 // {
     // browserName: 'internet explorer',
