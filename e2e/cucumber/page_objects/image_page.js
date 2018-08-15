@@ -8,17 +8,9 @@ const expect = require('chai').expect,
     protractorImageComparison = require('protractor-image-comparison');
 browser.waitForAngularEnabled(false);
 const WAIT_DASH = by.id('dashboard');
-const CLICK_BANK = by.id('viewBanks');
-const CLICK_USER = by.id('viewPersons');
-const CLICK_ROLE = by.id('userRolesBank');
-const CLICK_ACCOUT = by.id('viewBankUsers');
-const CLICK_CALEN = by.id('viewBusinessCalendars');
-const CLICK_AUDIT = by.id('viewAuditLog');
-const CLICK_ACT = by.id('viewAccounts');
-const CLICK_PARA = by.id('viewParameter');
+const CLICK_BANK = by.linkText('TransferWise');
 
-
-browser.ignoreSynchronization = true;
+//browser.ignoreSynchronization = true;
 
 function Imagepage() {
 
@@ -36,17 +28,18 @@ function Imagepage() {
  
     this.tPage = function () {
         return new Promise(function (resolve) {
+            console.log("CLICK_BANK");
             wait.waitForElement(CLICK_BANK).then(resolve);
         });
     };
 
-    const CLICK_ICHANGE = by.id('processInterchange');
-    const CLICK_SEARCH = by.css('.bttns #defaultBttn');
-
+    const CLICK_RECEIVE = (by.css("landing.selectUseCase('GET_PAID')").getText());
+   
     this.receive = function () {
         return new Promise(function (resolve) {
 
-            browser.driver.findElement(CLICK_ICHANGE).click().then(resolve);
+            browser.driver.findElement(CLICK_RECEIVE).click().then(resolve);
+            console.log("CLICK_RECEIVE");
 
         });
     };
