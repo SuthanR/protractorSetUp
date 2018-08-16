@@ -21,23 +21,23 @@ var ImageComSteps = function () {
         this.page = new ImagePage();
     };
 
-    this.When(/^I log in the netherlands transferwise home page$/, function () {
+    this.When(/^I log in the megabus home page$/, function () {
         this.page.login();
 
     });
 
-    this.When(/^I am on the transferwise page$/, function () {
+    this.When(/^I am on the megabus page$/, function () {
         this.page.tPage();
 
     });
 
 
-    this.When(/^I click receive money$/, function () {
+    this.When(/^I click help$/, function () {
         this.page.receive();
 
     });
 
-    this.When(/^I compare the receive money page$/, function (callback) {
+    this.When(/^I compare the mega bus page$/, function (callback) {
 
         this.page.screenReceive();
 

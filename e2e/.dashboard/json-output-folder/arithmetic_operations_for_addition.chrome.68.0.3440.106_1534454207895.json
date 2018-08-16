@@ -1,0 +1,344 @@
+[
+  {
+    "description": "  As a user of the calculator\n  I would like access to basic arithmetic operations to perform simple calculations",
+    "elements": [
+      {
+        "id": "arithmetic-operations-for-addition;add-the-numbers",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Add the numbers",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "The calculator is open",
+            "result": {
+              "status": "passed",
+              "duration": 1838195
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\IBM\\protractorSetUp\\e2e\\cucumber\\step_definitions\\calculator_steps.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I calculate 1 + 2",
+            "result": {
+              "status": "passed",
+              "duration": 3002186
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\IBM\\protractorSetUp\\e2e\\cucumber\\step_definitions\\calculator_steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the result should equal 3",
+            "result": {
+              "status": "passed",
+              "duration": 3029053568
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\IBM\\protractorSetUp\\e2e\\cucumber\\step_definitions\\calculator_steps.js:40"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "arithmetic-operations-for-addition;should-use-add-operator-by-default-for-addition",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Should use add operator by default for addition",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "The calculator is open",
+            "result": {
+              "status": "passed",
+              "duration": 1008133
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\IBM\\protractorSetUp\\e2e\\cucumber\\step_definitions\\calculator_steps.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter first value of 10",
+            "result": {
+              "status": "passed",
+              "duration": 1146712
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\IBM\\protractorSetUp\\e2e\\cucumber\\step_definitions\\calculator_steps.js:25"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I enter second value of 7",
+            "result": {
+              "status": "passed",
+              "duration": 908343
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\IBM\\protractorSetUp\\e2e\\cucumber\\step_definitions\\calculator_steps.js:30"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click Go",
+            "result": {
+              "status": "passed",
+              "duration": 878018
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\IBM\\protractorSetUp\\e2e\\cucumber\\step_definitions\\calculator_steps.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the result should equal 17",
+            "result": {
+              "status": "passed",
+              "duration": 2451986541
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\IBM\\protractorSetUp\\e2e\\cucumber\\step_definitions\\calculator_steps.js:40"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "arithmetic-operations-for-addition;should-use-substract-operator-by-default-for-substraction",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Should use substract operator by default for substraction",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "The calculator is open",
+            "result": {
+              "status": "passed",
+              "duration": 577587
+            },
+            "line": 18,
+            "match": {
+              "location": "C:\\IBM\\protractorSetUp\\e2e\\cucumber\\step_definitions\\calculator_steps.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I calculate 15 - 7",
+            "result": {
+              "status": "passed",
+              "duration": 1186558
+            },
+            "line": 19,
+            "match": {
+              "location": "C:\\IBM\\protractorSetUp\\e2e\\cucumber\\step_definitions\\calculator_steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the result should equal 8",
+            "result": {
+              "status": "passed",
+              "duration": 2668305750
+            },
+            "line": 20,
+            "match": {
+              "location": "C:\\IBM\\protractorSetUp\\e2e\\cucumber\\step_definitions\\calculator_steps.js:40"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "arithmetic-operations-for-addition;should-use-multiply-operator-by-default-for-multiplication",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Should use multiply operator by default for multiplication",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "The calculator is open",
+            "result": {
+              "status": "passed",
+              "duration": 360022
+            },
+            "line": 23,
+            "match": {
+              "location": "C:\\IBM\\protractorSetUp\\e2e\\cucumber\\step_definitions\\calculator_steps.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I calculate 10 * 9",
+            "result": {
+              "status": "passed",
+              "duration": 2910505
+            },
+            "line": 24,
+            "match": {
+              "location": "C:\\IBM\\protractorSetUp\\e2e\\cucumber\\step_definitions\\calculator_steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the result should equal 90",
+            "result": {
+              "status": "passed",
+              "duration": 2442614673
+            },
+            "line": 25,
+            "match": {
+              "location": "C:\\IBM\\protractorSetUp\\e2e\\cucumber\\step_definitions\\calculator_steps.js:40"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "arithmetic-operations-for-addition;should-use-divide-operator-by-default-for-division",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Should use divide operator by default for division",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "The calculator is open",
+            "result": {
+              "status": "passed",
+              "duration": 423493
+            },
+            "line": 28,
+            "match": {
+              "location": "C:\\IBM\\protractorSetUp\\e2e\\cucumber\\step_definitions\\calculator_steps.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I calculate 10 / 2",
+            "result": {
+              "status": "passed",
+              "duration": 1228520
+            },
+            "line": 29,
+            "match": {
+              "location": "C:\\IBM\\protractorSetUp\\e2e\\cucumber\\step_definitions\\calculator_steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the result should equal 5",
+            "result": {
+              "status": "passed",
+              "duration": 2617684333
+            },
+            "line": 30,
+            "match": {
+              "location": "C:\\IBM\\protractorSetUp\\e2e\\cucumber\\step_definitions\\calculator_steps.js:40"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "arithmetic-operations-for-addition;should-use-modulo-operator-by-default-for-modulo",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "Should use modulo operator by default for modulo",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "The calculator is open",
+            "result": {
+              "status": "passed",
+              "duration": 481675
+            },
+            "line": 33,
+            "match": {
+              "location": "C:\\IBM\\protractorSetUp\\e2e\\cucumber\\step_definitions\\calculator_steps.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I calculate 26 % 11",
+            "result": {
+              "status": "passed",
+              "duration": 1002492
+            },
+            "line": 34,
+            "match": {
+              "location": "C:\\IBM\\protractorSetUp\\e2e\\cucumber\\step_definitions\\calculator_steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the result should equal 4",
+            "result": {
+              "status": "passed",
+              "duration": 2622040569
+            },
+            "line": 35,
+            "match": {
+              "location": "C:\\IBM\\protractorSetUp\\e2e\\cucumber\\step_definitions\\calculator_steps.js:40"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "arithmetic-operations-for-addition",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Arithmetic Operations for addition",
+    "tags": [],
+    "uri": "C:\\IBM\\protractorSetUp\\e2e\\cucumber\\features\\calculator.feature",
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "68.0.3440.106"
+      },
+      "device": "",
+      "platform": {
+        "name": "",
+        "version": ""
+      }
+    }
+  }
+]

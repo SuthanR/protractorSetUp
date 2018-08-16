@@ -6,8 +6,8 @@ exports.config = {
   ignoreUncaughtExceptions: true,
 
   multiCapabilities: [
-//     {
-//     browserName: 'chrome',
+    {
+    browserName: 'chrome',
     
 //     metadata: {
 //         browser: {
@@ -20,7 +20,7 @@ exports.config = {
 //             version: '10.12.6'
 //         }
 //     }
-// },
+ },
 
 {
   browserName: 'firefox',

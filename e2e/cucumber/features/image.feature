@@ -1,8 +1,8 @@
-Feature: Image comparision for BVA application
-  As a user, I would like to compare the transferwise multilingual page
+Feature: Image comparision for MEGA bus.com
+  As a user, I would like to compare the mega bus multilingual page
 
-  Scenario: Compare the transferwise receive money page for Netherlands & Germany
-  Given I log in the netherlands transferwise home page
-  When I am on the transferwise page
- And I click receive money
-    Then I compare the receive money page
+  Scenario: Compare the mega bus help page for united kingdom & canada
+  Given I log in the megabus home page
+  When I am on the megabus page
+  And I click help
+  Then I compare the mega bus page

@@ -7,10 +7,7 @@ chai.use(require('chai-as-promised'));
 const expect = require('chai').expect,
     protractorImageComparison = require('protractor-image-comparison');
 browser.waitForAngularEnabled(false);
-const WAIT_DASH = by.id('dashboard');
-const CLICK_BANK = by.linkText('TransferWise');
-
-//browser.ignoreSynchronization = true;
+const CLICK_BANK = by.linkText('Megabus.com');
 
 function Imagepage() {
 
@@ -22,24 +19,25 @@ function Imagepage() {
 
     this.login = function () {
         return new Promise(resolve => {
-            browser.driver.get('https://transferwise.com/nl').then(resolve);
+            browser.driver.get('https://uk.megabus.com/').then(resolve);
         })
     }
- 
+    
+    
     this.tPage = function () {
         return new Promise(function (resolve) {
-            console.log("CLICK_BANK");
+            console.log("CLICK_ONE");
             wait.waitForElement(CLICK_BANK).then(resolve);
         });
     };
 
-    const CLICK_RECEIVE = (by.css("landing.selectUseCase('GET_PAID')").getText());
-   
+    const CLICK_ONE =  by.linkText('Help');
+
+    
     this.receive = function () {
         return new Promise(function (resolve) {
 
-            browser.driver.findElement(CLICK_RECEIVE).click().then(resolve);
-            console.log("CLICK_RECEIVE");
+            element(CLICK_ONE).click().then(resolve);
 
         });
     };
@@ -48,16 +46,6 @@ function Imagepage() {
         expect(browser.protractorImageComparison.checkScreen('Interchange')).to.eventually.equal(0);
 
     };
-
-    // this.search2 = function () {
-    //     return new Promise(function (resolve) {
-
-    //         wait.waitForElement(CLICK_SEARCH).then(function () {
-
-    //             browser.driver.findElement(CLICK_SEARCH).submit().then(resolve);
-    //         })
-    //     });
-    // };
 
 }
 module.exports = Imagepage;

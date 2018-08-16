@@ -17,9 +17,9 @@ exports.config = {
     ); 
 },
    
-allScriptsTimeout: 100000,
-getPageTimeout: 20000,
-defaultTimeoutInterval: 30000,
+allScriptsTimeout: 60000,
+    getPageTimeout: 60000,
+    setDefaultTimeout: 60000,
 
   cucumberOpts: {
     require: 'cucumber/step_definitions/image_steps.js',

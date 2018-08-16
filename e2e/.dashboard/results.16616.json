@@ -14,7 +14,7 @@
             "name": "The calculator is open",
             "result": {
               "status": "passed",
-              "duration": 3016992
+              "duration": 1838195
             },
             "line": 6,
             "match": {
@@ -27,7 +27,7 @@
             "name": "I calculate 1 + 2",
             "result": {
               "status": "passed",
-              "duration": 5020914
+              "duration": 3002186
             },
             "line": 7,
             "match": {
@@ -40,7 +40,7 @@
             "name": "the result should equal 3",
             "result": {
               "status": "passed",
-              "duration": 2965205868
+              "duration": 3029053568
             },
             "line": 8,
             "match": {
@@ -63,7 +63,7 @@
             "name": "The calculator is open",
             "result": {
               "status": "passed",
-              "duration": 546204
+              "duration": 1008133
             },
             "line": 11,
             "match": {
@@ -76,7 +76,7 @@
             "name": "I enter first value of 10",
             "result": {
               "status": "passed",
-              "duration": 1060319
+              "duration": 1146712
             },
             "line": 12,
             "match": {
@@ -89,7 +89,7 @@
             "name": "I enter second value of 7",
             "result": {
               "status": "passed",
-              "duration": 704528
+              "duration": 908343
             },
             "line": 13,
             "match": {
@@ -102,7 +102,7 @@
             "name": "I click Go",
             "result": {
               "status": "passed",
-              "duration": 554314
+              "duration": 878018
             },
             "line": 14,
             "match": {
@@ -115,7 +115,7 @@
             "name": "the result should equal 17",
             "result": {
               "status": "passed",
-              "duration": 2717866187
+              "duration": 2451986541
             },
             "line": 15,
             "match": {
@@ -138,7 +138,7 @@
             "name": "The calculator is open",
             "result": {
               "status": "passed",
-              "duration": 1147063
+              "duration": 577587
             },
             "line": 18,
             "match": {
@@ -151,7 +151,7 @@
             "name": "I calculate 15 - 7",
             "result": {
               "status": "passed",
-              "duration": 3377366
+              "duration": 1186558
             },
             "line": 19,
             "match": {
@@ -164,7 +164,7 @@
             "name": "the result should equal 8",
             "result": {
               "status": "passed",
-              "duration": 2724048269
+              "duration": 2668305750
             },
             "line": 20,
             "match": {
@@ -187,7 +187,7 @@
             "name": "The calculator is open",
             "result": {
               "status": "passed",
-              "duration": 774699
+              "duration": 360022
             },
             "line": 23,
             "match": {
@@ -200,7 +200,7 @@
             "name": "I calculate 10 * 9",
             "result": {
               "status": "passed",
-              "duration": 3224330
+              "duration": 2910505
             },
             "line": 24,
             "match": {
@@ -213,7 +213,7 @@
             "name": "the result should equal 90",
             "result": {
               "status": "passed",
-              "duration": 2810307912
+              "duration": 2442614673
             },
             "line": 25,
             "match": {
@@ -236,7 +236,7 @@
             "name": "The calculator is open",
             "result": {
               "status": "passed",
-              "duration": 643879
+              "duration": 423493
             },
             "line": 28,
             "match": {
@@ -249,7 +249,7 @@
             "name": "I calculate 10 / 2",
             "result": {
               "status": "passed",
-              "duration": 2852319
+              "duration": 1228520
             },
             "line": 29,
             "match": {
@@ -262,7 +262,7 @@
             "name": "the result should equal 5",
             "result": {
               "status": "passed",
-              "duration": 2794069546
+              "duration": 2617684333
             },
             "line": 30,
             "match": {
@@ -285,7 +285,7 @@
             "name": "The calculator is open",
             "result": {
               "status": "passed",
-              "duration": 757069
+              "duration": 481675
             },
             "line": 33,
             "match": {
@@ -298,7 +298,7 @@
             "name": "I calculate 26 % 11",
             "result": {
               "status": "passed",
-              "duration": 2093840
+              "duration": 1002492
             },
             "line": 34,
             "match": {
@@ -311,7 +311,7 @@
             "name": "the result should equal 4",
             "result": {
               "status": "passed",
-              "duration": 2496731593
+              "duration": 2622040569
             },
             "line": 35,
             "match": {
@@ -328,17 +328,6 @@
     "line": 1,
     "name": "Arithmetic Operations for addition",
     "tags": [],
-    "uri": "C:\\IBM\\protractorSetUp\\e2e\\cucumber\\features\\calculator.feature",
-    "metadata": {
-      "browser": {
-        "name": "chrome",
-        "version": "68.0.3440.106"
-      },
-      "device": "Dell",
-      "platform": {
-        "name": "windows",
-        "version": "10.12.6"
-      }
-    }
+    "uri": "C:\\IBM\\protractorSetUp\\e2e\\cucumber\\features\\calculator.feature"
   }
 ]

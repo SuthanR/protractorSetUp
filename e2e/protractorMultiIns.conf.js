@@ -11,14 +11,14 @@ exports.config = {
        browserName   : 'chrome',
        specs: [
     
-        'cucumber/features/addition.feature',
-          'cucumber/features/division.feature',        
+        'cucumber/features/calculator.feature',
+                
        ],
     },
     {
        browserName   : 'chrome',
        specs: [
-        'cucumber/features/multiply.feature',
+        'cucumber/features/calculator.feature',
        
        ],
       },
