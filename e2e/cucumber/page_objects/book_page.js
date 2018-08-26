@@ -73,8 +73,6 @@ var bookPage = function () {
 
   };
 
-
-
 };
 
 module.exports = bookPage;
