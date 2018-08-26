@@ -9,6 +9,12 @@ exports.config = {
     {
     browserName: 'chrome',
     
+      
+    // chromeOptions: {
+
+    // args: [ "--headless", "--disable-gpu"]
+    //  }
+    
 //     metadata: {
 //         browser: {
 //             name: 'chrome',

@@ -8,11 +8,9 @@ protractorImageComparison = require('protractor-image-comparison');
 browser.driver.manage().window().maximize();
 
 
-module.exports = function() {
-    this.setDefaultTimeout(60 * 1000);
-};
+var configure = function () {
 
-var ImageComSteps = function () {
+    this.setDefaultTimeout(60 * 1000);
 
     var ImagePage = require("../page_objects/image_page.js");
 
@@ -45,4 +43,4 @@ var ImageComSteps = function () {
 
 };
 
-module.exports = ImageComSteps;
+module.exports = configure;

@@ -33,6 +33,7 @@
     "MultiIns": "protractor protractorMultiIns.conf.js"
   },
   "dependencies": {
+    "chromedriver": "^2.41.0",
     "elementor": "^2.1.0",
     "grunt": "^1.0.3",
     "jslint": "^0.11.0",

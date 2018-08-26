@@ -1,20 +1,24 @@
 Feature: Holiday planning
-  As a user I would like to book the reservation packages in virgin holidays
+  As a user, I would like to book the holiday packages on virgin holidays
+
  Background:
-        Given I am on the virgin holiday Inn
+  Given user on the virgin holiday Inn
+   Then user accept the cookies
+
 @Check
-    Scenario Outline: Analytics on tasks  
-    When I select the Fly drive package
-    And I select the deparature as <where>
-    And I select the destination <to> on <when> for <night> nightof <count> adults
-    And I click Fly drive
+    Scenario Outline: Search different options available in fly drive package
+   When user select the Fly drive
+    And user select the Barbados as destination
+    And user select the deparature <from> on <when> for how many days <nights> forty <count> adults
+   Then user click Find Flydrive
 
-        Examples:
-            | where     | to           | when         | night      | count  |
-            | Barbados  | Glasglow     | 12-01-2018   | 5          | 2      |
-            | Toronto   | London       | 14-01-2018   | 4          | 3      |
+Examples:
+|  from  |   when   |nights|count|
+|Glasglow|12-01-2018|   5  |  2  |
 
- Scenario: Analytics on tasks  
-    When I select the Holiday package
-    And I select the destination <Edinburgh> on <16-01-2018> for <2> nightof <1> adults
-    And I click Find holidays
+Scenario: Check the multi-destination options
+   When user select the multi-destination
+    And user select the Las Vegas as destination
+   Then user click Fly holidays
+
+   

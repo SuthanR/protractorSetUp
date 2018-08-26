@@ -6,11 +6,7 @@ exports.config = {
   ignoreUncaughtExceptions: true,
   capabilities: {
     browserName: 'chrome',
-  
-    // chromeOptions: {
 
-    // args: [ "--headless", "--disable-gpu"]
-    //  }
   },
 
   specs: [

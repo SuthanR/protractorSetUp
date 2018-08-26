@@ -19,7 +19,7 @@ function Imagepage() {
 
     this.login = function () {
         return new Promise(resolve => {
-            browser.driver.get('https://uk.megabus.com/').then(resolve);
+            browser.driver.get('https://us.megabus.com/').then(resolve);
         })
     }
     
