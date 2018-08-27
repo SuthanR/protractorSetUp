@@ -9,8 +9,8 @@ Feature: Holiday planning
     Scenario Outline: Search different options available in fly drive package
    When user select the Fly drive
     And user select the Barbados as destination
-    And user select the deparature <from> on <when> for how many days <nights> forty <count> adults
-   Then user click Find Flydrive
+    And user select the deparature <from> on <when> for how many days <nights> for <count> adults
+   Then user clicks Find Flydrive
 
 Examples:
 |  from  |   when   |nights|count|
@@ -19,6 +19,6 @@ Examples:
 Scenario: Check the multi-destination options
    When user select the multi-destination
     And user select the Las Vegas as destination
-   Then user click Fly holidays
+   Then user clicks Find Holidays
 
    

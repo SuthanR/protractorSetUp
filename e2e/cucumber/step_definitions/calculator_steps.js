@@ -1,5 +1,6 @@
 var chai = require('chai').use(require('chai-as-promised'));
 var expect = chai.expect;
+browser.driver.manage().window().maximize();
 
 var CalculatorSteps = function() {
 
