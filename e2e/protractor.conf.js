@@ -20,7 +20,7 @@ exports.config = {
   cucumberOpts: {
     require: 'cucumber/step_definitions/book_steps.js',
     Format: 'pretty',
-    tags: '@Check'
+   // tags: '@Check'
   }
 }
 

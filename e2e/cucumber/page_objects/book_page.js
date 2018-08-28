@@ -16,18 +16,20 @@ var bookPage = function () {
 
   this.flyDrive = function () {
      element(by.linkText('Flydrive')).click();
+     browser.close();
 
   }
 
   this.arrival = function (where) {
-   element(by.cssContainingText('option', where));
-  };
+    return new Promise(function (resolve) {
 
+      element(by.cssContainingText('option', where)).click().then(resolve);
+    });
+};
 
   this.selectDepart = function (from) {
     element(by.css('select.form-control.qa_depFrom')).sendKeys(from);
  
-
   };
 
   this.selectDate = function (date) {

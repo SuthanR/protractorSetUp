@@ -31,10 +31,10 @@ function Imagepage() {
         });
     };
 
-    const CLICK_ONE =  by.linkText('Help');
+    const CLICK_ONE =  by.id('accountLink');
 
     
-    this.receive = function () {
+    this.signUp = function () {
         return new Promise(function (resolve) {
 
             element(CLICK_ONE).click().then(resolve);
@@ -42,8 +42,8 @@ function Imagepage() {
         });
     };
 
-    this.screenReceive = function () {
-        expect(browser.protractorImageComparison.checkScreen('Interchange')).to.eventually.equal(0);
+    this.compareSignUp = function () {
+        expect(browser.protractorImageComparison.checkScreen('LoginSignUp')).to.eventually.equal(0);
 
     };
 

@@ -11,45 +11,43 @@ var bookSteps = function () {
   this.World = function MyWorld() {
     this.page = new bookPage();
     };
-  this.Given('user on the virgin holiday Inn', function (callback) {
+  this.Given('user on the virgin holiday Inn', function () {
     this.page.login();
-    callback();
+
   });
 
-  this.Given('user accept the cookies', function (callback) {
+  this.Given('user accept the cookies', function () {
     this.page.acceptCookie();
-    callback();
+ 
   });
 
-  this.When('user select the Fly drive', function (callback) {
+  this.When('user select the Fly drive', function () {
     this.page.flyDrive();
-    callback();
-   
+
   });
 
-  this.When(/^user select the (.*) as destination$/, function (where, callback) {
+  this.When(/^user select the (.*) as destination$/, function (where) {
     this.page.arrival(where);
-    callback();
+    
   
   });
 
-  this.When(/^user select the deparature (.*) on (.*) for how many days (.*) for (.*) adults$/, function (from, when, nights, count, callback) {
+  this.When(/^user select the deparature (.*) on (.*) for how many days (.*) for (.*) adults$/, function (from, when, nights, count) {
     this.page.selectDepart(from);
     this.page.selectDate(when);
     this.page.selectNight(nights);
     this.page.selectAdult(count);
-    callback();
+
   });
 
-  this.When(/^user clicks (.*)$/, function (search, callback) {
+  this.When(/^user clicks (.*)$/, function (search) {
     this.page.clickSearch(search);
-    callback();
  
   });
 
-  this.When('user select the multi-destination', function (callback) {
+  this.When('user select the multi-destination', function () {
     this.page.multiDest();
-    callback();
+  
   });
 
 

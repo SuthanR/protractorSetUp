@@ -30,14 +30,14 @@ var configure = function () {
     });
 
 
-    this.When(/^I click help$/, function () {
-        this.page.receive();
+    this.When(/^I click Login&Signup$/, function () {
+        this.page.signUp();
 
     });
 
-    this.When(/^I compare the mega bus page$/, function (callback) {
+    this.When(/^I compare the Login&Signup bus page$/, function (callback) {
 
-        this.page.screenReceive();
+        this.page.compareSignUp();
 
     });
 

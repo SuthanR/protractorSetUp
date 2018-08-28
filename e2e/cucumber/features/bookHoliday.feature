@@ -14,11 +14,9 @@ Feature: Holiday planning
 
 Examples:
 |  from  |   when   |nights|count|
-|Glasglow|12-01-2018|   5  |  2  |
+|Glasglow|12-09-2018|   5  |  2  |
 
 Scenario: Check the multi-destination options
    When user select the multi-destination
     And user select the Las Vegas as destination
    Then user clicks Find Holidays
-
-   

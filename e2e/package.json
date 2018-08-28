@@ -39,6 +39,7 @@
     "jslint": "^0.11.0",
     "multiple-cucumber-html-reporter": "^1.10.2",
     "node-latest-version": "^1.0.16",
-    "npm": "^6.3.0"
+    "npm": "^6.3.0",
+    "webdriverjs-retry": "^0.2.0"
   }
 }
